@@ -11,6 +11,6 @@ This is a Rails 4.2 boilerplate for new project bootstrap.
 
 ### How to install
 
-`rails new PROJECT -m `
+`rails new PROJECT -m https://raw.githubusercontent.com/chagel/rails-template/master/template.rb`
 
 Welcome to folk and request pulls.
