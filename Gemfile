@@ -27,14 +27,13 @@ gem 'sidekiq'
 gem 'sidekiq-failures'
 gem 'sinatra', '>= 1.3.0', :require => nil  # for sidekiq-web
 
-gem 'unicorn'
+gem 'puma'
 
 group :development do 
-  gem 'capistrano', '~> 3.4.0'
-  gem 'capistrano-rails', '~> 1.1'
-  gem 'capistrano-unicorn-nginx', '~> 3.2.0'
-  gem 'capistrano-sidekiq'
   gem 'quiet_assets'
+  gem 'mina', require: false
+  gem 'mina-sidekiq', require: false
+  gem 'mina-puma', require: false
 end
 
 group :development, :test do
