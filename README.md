@@ -1,13 +1,13 @@
 ## chagel/rails-template 
 
-This is a Rails 4.2 boilerplate for new project bootstrap.
+This is a Rails 5 boilerplate for new project bootstrap.
 
 ### Gems featured
 
 - Default database: Mysql
 - Rspec and Guard 
 - Sidekiq 
-- Capistrano 
+- Mina 
 
 ### How to install
 

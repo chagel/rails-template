@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Autoloading is Disabled After Booting in the Production Environment
+  config.enable_dependency_loading = true
 end

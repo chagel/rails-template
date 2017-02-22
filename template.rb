@@ -13,8 +13,8 @@ def bootstrap
   copy_file 'config/deploy.rb'
   copy_file 'config/deploy/production.rb'
   copy_file 'config/deploy/staging.rb'
-  remove_file "README.rdoc"
-  copy_file "README.md"
+  copy_file 'config/database.yml', force: true
+  copy_file "README.md", force: true
 
   run("bundle install") 
   git :init
